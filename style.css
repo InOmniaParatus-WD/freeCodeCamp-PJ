@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap");
+
+:root {
+    --box-shadow: 0 2px 20px rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: darkslategray;
+  box-shadow: var(--box-shadow);
+}
+
+#navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 1.5rem;
+}
+
+.logo {
+ padding: 5px 0;
+ font-size: 3rem;
+ font-family: 'Fleur de Leah', serif;
+ color: #fefae0;
+ padding-left: 30px;
+ margin-left: 0;
+ text-shadow: var(--box-shadow);
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#navbar ul {
+  cursor: pointer;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: auto;
+  padding: 20px 0;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 15px;
+}
+
+#navbar ul li a:hover {
+  background-color: lightgoldenrodyellow;
+  color: #222;
+  box-shadow: var(--box-shadow);
+  border-radius: 5px;
+}
+
+#welcome-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: lightseagreen;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: lightskyblue;
+}
+
+.project-tile {
+  width: 30%;
+  height: 50px;
+  border: 2px solid black;
+}
+
+#contact {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: lightgreen;
+}
