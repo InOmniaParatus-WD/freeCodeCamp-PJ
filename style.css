@@ -95,8 +95,9 @@ h1 {
 
 .project-tile {
   width: 30%;
-  height: 50px;
-  border: 2px solid black;
+  height: 35%; 
+  background-color: rgb(82, 80, 80);
+  box-shadow: var(--box-shadow);
 }
 
 #contact {
@@ -104,4 +105,9 @@ h1 {
   height: 100vh;
   max-width: 100%;
   background-color: lightgreen;
+}
+
+.project-preview img {
+  width: 100%;
+  height: 100%;
 }
