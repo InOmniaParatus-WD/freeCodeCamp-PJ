@@ -1,17 +1,14 @@
 #navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 1.5rem;
   position: fixed;
   left: 0;
   right: 0;
   background-color: var(--navbar-color);
   box-shadow: var(--box-shadow);
   z-index: 1;
-}
-
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  font-size: 1.5rem;
 }
 
 .logo {
@@ -54,20 +51,23 @@
   border-radius: 5px;
 }
 
-@media (max-width: 600px){
+@media (max-width: 640px) {
   .logo {
-    padding-top: none;
+    margin: auto 0;
     font-size: 1.5em;
   }
   .logo:hover {
     transform: none;
   }
-  #navbar ul li {
+  #navbar ul {
     display: flex;
     flex-direction: column;
-    align-self: center;
     justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
     font-size: 0.7em;
   }
+  #navbar ul li:hover {
+    padding: 1px 5px;
+  }
 }
-
