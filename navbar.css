@@ -67,7 +67,15 @@
     flex-wrap: wrap;
     font-size: 0.7em;
   }
-  #navbar ul li:hover {
+
+  #navbar ul li {
     padding: 1px 5px;
+  }
+
+  #navbar ul li a:hover {
+    background-color: transparent;
+    box-shadow: none;
+    color: var(--text-color);
+    text-decoration: underline 5px var(--link-hover-background);
   }
 }
