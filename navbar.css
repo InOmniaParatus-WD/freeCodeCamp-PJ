@@ -69,7 +69,7 @@
   }
 
   #navbar ul li {
-    padding: 1px 5px;
+    padding-bottom: 2px;
   }
 
   #navbar ul li a:hover {
