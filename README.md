@@ -1,2 +1,2 @@
 # freeCodeCamp project
-Part of _Responsive Design_ unit
+This project is a part of _Responsive Design_ unit
