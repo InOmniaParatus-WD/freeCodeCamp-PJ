@@ -1,2 +1,2 @@
-# FCC-Cert-Portfolio
-A freeCodeCamp certification project as part of the "Responsive Design" curriculum
+# freeCodeCamp-PJ
+This project is a part of Responsive Design unit
